@@ -23,10 +23,10 @@ const greeting = {
   username: "twenty4-lee",
   title: "Youngseo Lee",
   subTitle: emoji(
-    "An undergraduate student experiencing AI."
+    "An undergraduate student experiencing AI and Data Science."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1c_nintWNCC2Yan2heZ8ZwqDTSw336vty/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -43,21 +43,22 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "AI Engineering and Data Analyzing",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop interactive Front end / User Interfaces for web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Use Python for data analysis and AI for training models")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -67,25 +68,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
+    }   
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -102,8 +91,8 @@ const educationInfo = {
       duration: "Feburary 2020 - Current",
       desc: "Current GPA: 4.32",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Created web/mobile game application named “Squid game” using vue.js",
+        "Participated in the Forif hackathon, contributing a c-programming game"
       ]
     },
     {
@@ -111,8 +100,9 @@ const educationInfo = {
       logo: require("./assets/images/lsuLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "January 2023 - May 2023",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Took courses about Big data, Management in Information Systems...",
+      descBullets: ["Won 3rd prize in the Hackathon organized by Woman in Computer Science (WiCS) by developing web / mobile game application named “Math mania” using react.js"
+      ]
     }
   ]
 };
@@ -146,8 +136,7 @@ const workExperiences = {
       date: "September 2023 – March 2024",
       desc: "School of Metallurgy and Materials, Extreme Robotics Lab",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Engaged in research in the field of Robotics AI with machine learning for characterizing materials"
       ]
     },
     {
@@ -177,7 +166,7 @@ const bigProjects = {
     {
       image: require("./assets/images/deeplearning.png"),
       projectName: "Facial Expression Classification",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "A real-time application to classify facial expressions",
       footerLink: [
         {
           name: "Visit Github",
@@ -213,12 +202,16 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/UoB_white.png"),
+      projectName: "Extreme Robotics Lab",
+      projectDesc: "A real-time ROS framework to detect and identify radiation sources",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Github",
+          url: "http://nextu.se/"
+        },
+        {
+          name: "Access to papers (English)",
           url: "http://nextu.se/"
         }
       ]
