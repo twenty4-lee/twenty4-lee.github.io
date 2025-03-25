@@ -1,29 +1,30 @@
 {
   "files": {
     "main.css": "/static/css/main.0b94b6a4.css",
-    "main.js": "/static/js/main.967be49c.js",
+    "main.js": "/static/js/main.701b38a1.js",
     "static/css/64.d5f6b256.chunk.css": "/static/css/64.d5f6b256.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.314ad016.chunk.css": "/static/css/769.314ad016.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/static/js/769.bda0d7b7.chunk.js",
     "static/media/LSULogo.png": "/static/media/LSULogo.ad8282f66a4f89d805ab.png",
-    "static/media/question.png": "/static/media/question.40a7a08c42bbf827bd4d.png",
     "static/media/UoBLogo.png": "/static/media/UoBLogo.9006209af8a2707de12a.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/Hello.png": "/static/media/Hello.1e01ce96506924a2b3f5.png",
-    "static/media/Pointing.png": "/static/media/Pointing.6f99641b4a84ef292cf7.png",
-    "static/media/Callme.png": "/static/media/Callme.f0e0aa62bbaa0f96c769.png",
+    "static/media/uobLogo_vf.png": "/static/media/uobLogo_vf.0212dfc83e2c0f578297.png",
+    "static/media/Callme.png": "/static/media/Callme.bc8322b91536772736d6.png",
+    "static/media/Hello.png": "/static/media/Hello.9f7badc7937f1c4226fb.png",
+    "static/media/Pointing.png": "/static/media/Pointing.aec7918f4429efa57b40.png",
     "static/media/hanyangLogo.png": "/static/media/hanyangLogo.4200138cf18bc047b620.png",
     "static/media/DLLogo.png": "/static/media/DLLogo.a8a2c242c27b81544d12.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/Coding.png": "/static/media/Coding.9e32b4ebfa1b67494514.png",
     "static/media/LGLogo.png": "/static/media/LGLogo.dbedf285fea44ec0e255.png",
-    "static/media/UoBDarkLogo.jpg": "/static/media/UoBDarkLogo.1dadd5a90b1223997801.jpg",
+    "static/media/kpmgLogo.png": "/static/media/kpmgLogo.a8f0dc45e30b97585274.png",
+    "static/media/mbcLogo.png": "/static/media/mbcLogo.b59d19f16bbd9186f171.png",
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.0b94b6a4.css.map": "/static/css/main.0b94b6a4.css.map",
-    "main.967be49c.js.map": "/static/js/main.967be49c.js.map",
+    "main.701b38a1.js.map": "/static/js/main.701b38a1.js.map",
     "64.d5f6b256.chunk.css.map": "/static/css/64.d5f6b256.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.314ad016.chunk.css.map": "/static/css/769.314ad016.chunk.css.map",
@@ -31,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.0b94b6a4.css",
-    "static/js/main.967be49c.js"
+    "static/js/main.701b38a1.js"
   ]
 }

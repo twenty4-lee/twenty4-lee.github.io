@@ -78,8 +78,8 @@ const educationInfo = {
       schoolName: "Hanyang University",
       logo: require("./assets/images/hanyangLogo.png"),
       subHeader: "Bachelor of Engineering in Information Systems",
-      duration: "March 2020 - August 2024 (expected)",
-      desc: "Current GPA: 4.32",
+      duration: "March 2020 - August 2024",
+      desc: "Cumulative GPA: 4.32",
       descBullets: [
         'Created web/mobile game application named "Squid Game" using vue.js',
         "Participated in the Forif hackathon, creating a c-programming game"
