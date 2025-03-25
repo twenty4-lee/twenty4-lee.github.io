@@ -23,7 +23,7 @@ const greeting = {
   username: "Youngseo Lee",
   title: "Youngseo Lee",
   subTitle: emoji(
-    "An undergraduate student experiencing AI and Data Science."
+    "AI Practitioner bridging the gap between AI fundamentals and real-world solutions"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1I_EJ7f4-f43dfBRk0GEOhw58OWjZYiJK/view?usp=share_link", // Set to empty to hide the button
@@ -43,10 +43,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: " AI Engineering and Data Analyzing",
+  subTitle: " Applied AI & Digital Transformation",
   skills: [
-    emoji("⚡ Develop interactive Front end / User interfaces for web and mobile applications"),
-    emoji("⚡ Use Python for data analysis and AI for training models"),
+    emoji("⚡ Delivering AI-driven solutions that turn fundamental concepts into practical, business-ready applications"),
+    emoji("⚡ Utilizing Python for data analysis and for training and deploying AI models"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -58,26 +58,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
     }
-    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -118,12 +105,12 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Deep Learning & Machine Learning",
-      progressPercentage: "70%"
+      Stack: "English",
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -137,7 +124,7 @@ const workExperiences = {
     {
       role: "Researcher",
       company: "University of Birmingham",
-      companylogo: require("./assets/images/UoBDarkLogo.jpg"),
+      companylogo: require("./assets/images/uobLogo_vf.png"),
       date: "September 2023 – March 2024",
       desc: "School of Metallurgy and Materials, Extreme Robotics Lab",
       descBullets: [
@@ -146,10 +133,27 @@ const workExperiences = {
       ]
     },
     {
-      role: "What's next?",
-      company: "Current",
-      companylogo: require("./assets/images/question.png"),
-    }
+      role: "AI Intern",
+      company: "MBC",
+      companylogo: require("./assets/images/mbcLogo.png"),
+      date: "March 2024 – July 2024",
+      desc: "Dost 11",
+      descBullets: [
+        "Designed Information Architecture (IA) and screen flow for AI-based web service in the media and broadcasting industry, improving UX/UI with Figma in collaboration with designers",
+        "Developed Speech-to-Text (STT) functionality using LLaMA 3 with speaker diarization",
+        "Performed image clustering of people in broadcasting footage using K-means-based Faiss, applying the Elbow Method to determine optimal clusters"
+      ]
+    },
+    {
+      role: "Digital Consultant",
+      company: "Samjong KPMG",
+      companylogo: require("./assets/images/kpmgLogo.png"),
+      date: "January 2025 – Current",
+      desc: "Digital - AI Transformation",
+      descBullets: [
+        "Participated in an AI consulting project for LG Household & Health Care, contributing to the AI master plan across the beauty industry value chain"
+      ]
+    },
   ]
 };
 
@@ -340,3 +344,4 @@ export {
   twitterDetails,
   isHireable
 };
+
