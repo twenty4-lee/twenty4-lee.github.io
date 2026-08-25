@@ -164,6 +164,22 @@ npm run dev
 
 ## Deployment
 
+### GitHub Pages
+
+This repository includes a GitHub Actions workflow that builds and publishes the
+site automatically whenever `master` is pushed.
+
+1. Open the repository's **Settings → Pages**.
+2. Set **Source** to **GitHub Actions**.
+3. Push the changes to `master` and wait for the **Deploy to GitHub Pages** action
+   to finish.
+
+With the current repository name, the site will be available at
+`https://twenty4-lee.github.io/portfolio/`. To use
+`https://twenty4-lee.github.io/`, rename the repository to
+`twenty4-lee.github.io`; the build configuration detects either form
+automatically.
+
 The template can be deployed to any static hosting service easily (and in most cases, completely free). Here are some options:
 
 - To deploy with Netlify, [click here](https://docs.astro.build/en/guides/deploy/netlify/).
