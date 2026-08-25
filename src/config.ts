@@ -10,11 +10,7 @@ export const siteConfig = {
   },
   aboutMe:
     "I am a Digital Consultant at Samjong KPMG, dedicated to bridging the gap between emerging technologies and business strategy. I help enterprises navigate the AI era and achieve lasting success by leading with strategy at the front and backing it with technical execution behind the scenes. Looking ahead, I am deeply passionate about Physical AI, particularly researching human-robot teaming in warehouses to seamlessly integrate robotic systems into real-world operational workflows.",
-  skills: [
-    "Enterprise AI Transformation (AX)",
-    "Prompt Engineering",
-    "Python",
-  ],
+  skills: ["Python"],
   projects: [
     {
       name: "Will be updated soon",
