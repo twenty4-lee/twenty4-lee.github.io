@@ -16,6 +16,9 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
               class="w-[75px] h-[5px] mt-2 rounded-full"
               style={`background-color: ${siteConfig.accentColor}`}
             />
+            <p class="mt-5 max-w-sm text-base leading-relaxed text-gray-600">
+              Selected engagements at Samjong KPMG (KPMG Korea).
+            </p>
           </div>
 
           <div class="lg:col-span-8">
@@ -66,6 +69,14 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                           >
                             0{index + 1}
                           </span>
+                          <div class="mt-2 flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
+                            <p class="text-sm font-semibold text-gray-700">
+                              {project.client}
+                            </p>
+                            <p class="text-xs sm:text-sm text-gray-500">
+                              {project.dateRange}
+                            </p>
+                          </div>
                           <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mt-1">
                             {project.name}
                           </h3>
