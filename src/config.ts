@@ -9,7 +9,7 @@ type Project = {
 
 export const siteConfig = {
   name: "Youngseo Lee",
-  title: "Senior Digital Consultant",
+  title: "Digital Consultant",
   description: "Portfolio website of Youngseo Lee",
   accentColor: "#1d4ed8",
   social: {
@@ -18,7 +18,7 @@ export const siteConfig = {
     github: "https://github.com/twenty4-lee",
   },
   aboutMe:
-    "I am a Senior Digital Consultant at Samjong KPMG (KPMG Korea), bridging emerging technologies and business strategy. I help organizations shape AI transformation roadmaps and turn operational needs into practical data and AI initiatives. I am also interested in Physical AI, especially human-robot teaming in warehouses and the integration of robotic systems into real-world workflows.",
+    "I am a Digital Consultant at Samjong KPMG (KPMG Korea), bridging emerging technologies and business strategy. I help organizations shape AI transformation roadmaps and turn operational needs into practical data and AI initiatives. I am also interested in Physical AI, especially human-robot teaming in warehouses and the integration of robotic systems into real-world workflows.",
   skills: [
     "Python",
     "Enterprise AI Transformation (AX)",
@@ -78,7 +78,7 @@ export const siteConfig = {
   experience: [
     {
       company: "Samjong KPMG (KPMG Korea)",
-      title: "Senior Digital Consultant",
+      title: "Digital Consultant",
       dateRange: "January 2025 - Present",
       bullets: [
         "AX Transformation: Formulated enterprise-wide AI transformation roadmaps across R&D, SCM, sales, and logistics, translating operational pain points from field interviews into actionable AI agent workflows",
