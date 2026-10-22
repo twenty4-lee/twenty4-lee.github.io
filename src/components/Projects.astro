@@ -1,5 +1,6 @@
 ---
 import { siteConfig } from "../config";
+import DateRange from "./DateRange.astro";
 ---
 
 {siteConfig.projects.length > 0 && (
@@ -8,7 +9,7 @@ import { siteConfig } from "../config";
     <ol class="entry-list">
       {siteConfig.projects.map((project) => (
         <li class="project-entry">
-          <p class="entry-date">{project.dateRange}</p>
+          <DateRange range={project.dateRange} />
           <div class="entry-content">
             <h3 class="entry-title">{project.name}</h3>
             <p class="entry-meta">{project.client}</p>

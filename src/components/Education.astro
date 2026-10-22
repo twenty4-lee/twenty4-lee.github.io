@@ -1,5 +1,6 @@
 ---
 import { siteConfig } from "../config";
+import DateRange from "./DateRange.astro";
 ---
 
 {siteConfig.education.length > 0 && (
@@ -8,7 +9,7 @@ import { siteConfig } from "../config";
     <ol class="entry-list">
       {siteConfig.education.map((education) => (
         <li class="education-entry">
-          <p class="entry-date">{education.dateRange}</p>
+          <DateRange range={education.dateRange} />
           <div class={`brand-mark brand-mark--${education.brand}`} aria-hidden="true">
             <img src={education.logo} alt="" loading="lazy" />
           </div>

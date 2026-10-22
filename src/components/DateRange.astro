@@ -1,0 +1,13 @@
+---
+interface Props {
+  range: string;
+}
+
+const { range } = Astro.props;
+const [start, end] = range.split(" - ");
+---
+
+<p class="entry-date">
+  <span class="date-range-start">{start} -</span>{" "}
+  <span class="date-range-end">{end}</span>
+</p>

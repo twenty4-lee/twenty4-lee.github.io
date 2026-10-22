@@ -1,5 +1,6 @@
 ---
 import { siteConfig } from "../config";
+import DateRange from "./DateRange.astro";
 ---
 
 {siteConfig.experience.length > 0 && (
@@ -8,7 +9,7 @@ import { siteConfig } from "../config";
     <ol class="entry-list">
       {siteConfig.experience.map((experience) => (
         <li class="experience-entry">
-          <p class="entry-date">{experience.dateRange}</p>
+          <DateRange range={experience.dateRange} />
           <div class={`brand-mark brand-mark--${experience.brand}`} aria-hidden="true">
             <img src={experience.logo} alt="" loading="lazy" />
           </div>
