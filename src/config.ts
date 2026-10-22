@@ -80,6 +80,8 @@ export const siteConfig = {
       company: "Samjong KPMG (KPMG Korea)",
       title: "Digital Consultant",
       dateRange: "January 2025 - Present",
+      logo: "/images/kpmg.svg",
+      brand: "kpmg",
       bullets: [
         "AX Transformation: Formulated enterprise-wide AI transformation roadmaps across R&D, SCM, sales, and logistics, translating operational pain points from field interviews into actionable AI agent workflows",
         "Data Readiness: Diagnosed structured and unstructured data quality to establish AI-ready data standards and build natural language query (NLQ) analytics systems",
@@ -90,6 +92,8 @@ export const siteConfig = {
       company: "Munhwa Broadcasting Corporation (MBC)",
       title: "AI Engineering Intern",
       dateRange: "March 2024 - June 2024",
+      logo: "/images/mbc-logo.png",
+      brand: "mbc",
       bullets: [
         "Implemented the NeMo framework for speaker diarization in a speech-to-text (STT) pipeline",
         "Applied image super-resolution techniques to low-quality images, improving person recognition in Dost11's celebrity database",
@@ -100,6 +104,8 @@ export const siteConfig = {
       company: "University of Birmingham (UoB)",
       title: "Robotics and AI Student Research Intern, Extreme Robotics Lab",
       dateRange: "September 2023 - March 2024",
+      logo: "/images/birmingham.svg",
+      brand: "birmingham",
       bullets: [
         "Developed ROS nodes using a Gradient Boosting classifier to detect and classify 7 radioactive isotopes, enabling real-time decision-making for UGV robotics in nuclear environments",
         "Engineered a computer vision pipeline to convert gamma spectrum graph images into CSV datasets and validated classification performance via real-time Jackal UGV experiments",
@@ -111,6 +117,11 @@ export const siteConfig = {
       school: "Hanyang University",
       degree: "Bachelor of Science in Information Systems",
       dateRange: "March 2020 - August 2024",
+      logo: "/images/hanyang-mark.png",
+      brand: "hanyang",
+      department: "Information Systems",
+      departmentMark: "IS",
+      departmentBrand: "hanyang",
       achievements: [
         "GPA: 4.32 / 4.5",
         "Thesis: Facial Emotion Classification Using Convolutional Neural Networks (CNNs)",
@@ -121,6 +132,11 @@ export const siteConfig = {
       school: "Louisiana State University",
       degree: "Bachelor of Science in Computer Science",
       dateRange: "January 2023 - May 2023",
+      logo: "/images/lsu.svg",
+      brand: "lsu",
+      department: "Computer Science",
+      departmentMark: "CS",
+      departmentBrand: "lsu",
       achievements: [
         "GPA: 4.08 / 4.3",
         "Exchange Student Program",

@@ -9,6 +9,9 @@ import { siteConfig } from "../config";
       {siteConfig.experience.map((experience) => (
         <li class="experience-entry">
           <p class="entry-date">{experience.dateRange}</p>
+          <div class={`brand-mark brand-mark--${experience.brand}`} aria-hidden="true">
+            <img src={experience.logo} alt="" loading="lazy" />
+          </div>
           <div class="entry-content">
             <h3 class="entry-title">{experience.title}</h3>
             <p class="entry-meta">{experience.company}</p>

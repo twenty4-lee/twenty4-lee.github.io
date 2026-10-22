@@ -9,9 +9,18 @@ import { siteConfig } from "../config";
       {siteConfig.education.map((education) => (
         <li class="education-entry">
           <p class="entry-date">{education.dateRange}</p>
+          <div class={`brand-mark brand-mark--${education.brand}`} aria-hidden="true">
+            <img src={education.logo} alt="" loading="lazy" />
+          </div>
           <div class="entry-content">
             <h3 class="entry-title">{education.degree}</h3>
             <p class="entry-meta">{education.school}</p>
+            <p class="department-label">
+              <span class={`department-mark department-mark--${education.departmentBrand}`} aria-hidden="true">
+                {education.departmentMark}
+              </span>
+              <span>{education.department}</span>
+            </p>
             <ul class="detail-list">
               {education.achievements.map((achievement) => <li>{achievement}</li>)}
             </ul>

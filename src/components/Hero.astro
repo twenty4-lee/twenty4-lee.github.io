@@ -3,8 +3,18 @@ import { siteConfig } from "../config";
 ---
 
 <section id="top" class="profile-intro" aria-label="Profile">
-  <div class="profile-avatar" aria-hidden="true">YL</div>
+  <div class="profile-photo-frame">
+    <img
+      class="profile-photo"
+      src="/images/profile.jpg"
+      alt="Portrait of Youngseo Lee"
+      width="604"
+      height="755"
+      fetchpriority="high"
+    />
+  </div>
   <div class="profile-details">
+    <p class="profile-eyebrow">AI · Data · Strategy</p>
     <h1 class="profile-name">{siteConfig.name}</h1>
     <p class="profile-role">{siteConfig.title}</p>
     <ul class="profile-links" aria-label="Contact and profiles">
