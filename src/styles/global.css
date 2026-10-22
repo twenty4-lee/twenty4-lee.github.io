@@ -277,6 +277,42 @@ a:hover {
   border-bottom: 0;
 }
 
+.publication-entry {
+  display: grid;
+  grid-template-columns: 155px minmax(0, 1fr);
+  gap: 1.15rem;
+  padding: 1rem 0 1.05rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.publication-title-link {
+  color: inherit;
+  text-decoration: none;
+  text-decoration-color: #8fb2c0;
+  text-underline-offset: 0.18em;
+}
+
+.publication-title-link:hover {
+  color: #245f79;
+  text-decoration: underline;
+}
+
+.publication-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  margin-top: 0.72rem;
+  color: #245f79;
+  font-size: 0.84rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.publication-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
 .experience-entry,
 .education-entry {
   display: grid;
@@ -539,6 +575,11 @@ a:hover {
     gap: 0.2rem;
   }
 
+  .publication-entry {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.2rem;
+  }
+
   .experience-entry,
   .education-entry {
     grid-template-columns: 58px minmax(0, 1fr);
@@ -572,6 +613,11 @@ a:hover {
   .entry-content {
     grid-column: 2;
     grid-row: 2;
+  }
+
+  .publication-entry .entry-content {
+    grid-column: 1;
+    grid-row: auto;
   }
 
   .footer-inner {
