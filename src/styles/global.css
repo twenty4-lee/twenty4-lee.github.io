@@ -278,9 +278,6 @@ a:hover {
 }
 
 .publication-entry {
-  display: grid;
-  grid-template-columns: 155px minmax(0, 1fr);
-  gap: 1.15rem;
   padding: 1rem 0 1.05rem;
   border-bottom: 1px solid var(--line);
 }
@@ -298,10 +295,6 @@ a:hover {
 }
 
 .publication-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.28rem;
-  margin-top: 0.72rem;
   color: #245f79;
   font-size: 0.84rem;
   font-weight: 650;
@@ -311,6 +304,12 @@ a:hover {
 .publication-link:hover {
   text-decoration: underline;
   text-underline-offset: 0.18em;
+}
+
+.publication-venue {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
 }
 
 .experience-entry,
@@ -350,7 +349,6 @@ a:hover {
 
 .date-range-start,
 .date-range-end {
-  display: block;
   white-space: nowrap;
 }
 
@@ -582,11 +580,6 @@ a:hover {
     gap: 0.2rem;
   }
 
-  .publication-entry {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 0.2rem;
-  }
-
   .experience-entry,
   .education-entry {
     grid-template-columns: 58px minmax(0, 1fr);
@@ -600,9 +593,8 @@ a:hover {
     font-size: 0.78rem;
   }
 
-  .date-range-start,
-  .date-range-end {
-    display: inline;
+  .date-range-break {
+    display: none;
   }
 
   .experience-entry .brand-mark,
@@ -625,11 +617,6 @@ a:hover {
   .entry-content {
     grid-column: 2;
     grid-row: 2;
-  }
-
-  .publication-entry .entry-content {
-    grid-column: 1;
-    grid-row: auto;
   }
 
   .footer-inner {
